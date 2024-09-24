@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Webpage</title>
+
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- navbar start here  -->
+      <nav class="nav container">
+        <a href="index.html" class="nav-brand">
+          <strong>Responsive Design</strong>
+        </a>
+        <div id="nav-menu" class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#cards" class="nav-link">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <span class="nav-close nav-icon" id="nav-close">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+        </div>
+
+        <span class="nav-icon nav-open" id="nav-open">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+
+        <div class="overlay"></div>
+      </nav>
+    </header>
+    <!-- main content start here  -->
+    <main>
+      <!-- hero section start here  -->
+      <section id="hero">
+        <div class="container hero-text">
+          <h1 class="hero-title">Welcome to Beautiful World</h1>
+          <p class="hero-para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
+            labore natus odio sunt facilis est provident nam corporis? Quo
+            quaerat labore quos illum neque obcaecati.
+          </p>
+        </div>
+      </section>
+
+      <!-- cards section  -->
+      <section id="cards" class="container">
+        <div class="card-container">
+          <div class="card">
+            <img src="./images/card-img1.jpg" alt="Nature image 1" />
+            <h3 class="card-title">Card Title 1</h3>
+            <p class="card-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+              adipisci.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/card-img2.jpg" alt="Nature image 2" />
+            <h3 class="card-title">Card Title 2</h3>
+            <p class="card-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+              adipisci.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/card-img3.jpg" alt="Nature image 3" />
+            <h3 class="card-title">Card Title 3</h3>
+            <p class="card-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+              adipisci.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/card-img4.jpg" alt="Nature image 4" />
+            <h3 class="card-title">Card Title 4</h3>
+            <p class="card-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+              adipisci.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer start here  -->
+    <footer class="container">
+      <p>All right reserved by Md Abdus Salam Suhag. &copy; 2024</p>
+    </footer>
+
+    <!-- custom javascript  -->
+    <script src="script.js"></script>
+  </body>
+</html>
